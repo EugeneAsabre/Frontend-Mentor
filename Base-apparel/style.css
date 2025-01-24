@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 55%;
+}
+
+.content .logo {
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+
+.content h1 {
+    position: relative;
+    top: 160px;
+    left: 120px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.content .color {
+    color: hsl(0, 6%, 24%);
+}
+
+.content p {
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+
+.picture {  
+    width: 45%;
+    background-image: url(./assets/hero-desktop.jpg);
+    height: 100vh;
+}
