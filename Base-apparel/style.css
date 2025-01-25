@@ -16,6 +16,7 @@ body {
 
 .content {
     width: 55%;
+    background-image: url(./assets/bg-pattern-desktop.svg);
 }
 
 .content .logo {
