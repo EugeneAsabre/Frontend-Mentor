@@ -51,7 +51,7 @@ body {
     bottom: 10px;
 }
 
-.middle .circle {
+.circle {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -61,7 +61,7 @@ body {
     left: 50px;
 }
 
-.middle .square {
+.square {
     width: 250px;
     height: 250px;
     border-radius: 30px;
@@ -225,4 +225,166 @@ body {
 
 .name {
     padding-bottom: 10px;
+}
+
+.save .circle {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 235px;
+    margin-right: 10px;
+    background-color: rgba(55, 114, 141, 0.747);
+}
+
+.save .square {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 235px;
+    margin-right: 10px;
+    background-color: rgba(55, 114, 141, 0.747);
+}
+
+.save {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.savebig p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.savebig {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    width: 100%;
+}
+
+.bigpicture {
+    width: 100px;
+}
+
+.bigpicture img {
+    position: relative;
+    bottom: 251px;
+    left: 300px;
+}
+
+.faq {
+    position: relative;
+    bottom: 60px;
+}
+
+.faq #big {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faqbox {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 65%;
+    background-color: rgba(34, 32, 32, 0.589);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.faqbox img {
+    height: 20px;
+    margin-right: 50px;
+}
+
+.faqbox p {
+    position: relative;
+    left: 10px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqwidth {
+    width: 70%;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+
+.squares .square {
+    height: 350px;
+    width: 300px;
+    margin-right: 10px;
+    background-color: rgba(55, 114, 141, 0.747);
+}
+
+.squares .border {
+    height: 350px;
+    width: 300px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-color: rgba(55, 114, 141, 0.747);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.contact_us {
+    margin-top: 100px;
+}
+
+.contact_us #big {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 170px;
+    height: 200px;
+    background-color: rgba(39, 37, 37, 0.644);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titlefooter{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titlefooter #big {
+    margin-bottom: 10px;
+}
+
+.footer1 {
+    margin-right: 200px;
+}
+
+.footer .title {
+    margin-top: 20px;
+    margin-bottom: 20px ;
 }
