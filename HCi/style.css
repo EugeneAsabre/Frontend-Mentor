@@ -232,59 +232,10 @@ body {
     padding-bottom: 10px;
 }
 
-.save .circle {
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 235px;
-    margin-right: 10px;
-    background-color: rgba(55, 114, 141, 0.747);
-}
-
-.save .square {
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 235px;
-    margin-right: 10px;
-    background-color: rgba(55, 114, 141, 0.747);
-}
-
-.save {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.savebig p {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.savebig {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 150px;
-    width: 100%;
-    z-index: 1;
-}
-
-.bigpicture {
-    width: 100px;
-}
-
-.bigpicture img {
-    position: relative;
-    bottom: 255px;
-    left: 300px;
-}
 
 .faq {
     position: relative;
-    bottom: 60px;
+    top: 120px;
 }
 
 .faq #big {
@@ -402,7 +353,7 @@ body {
 }
 
 .contact_us {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .contact_us #big {
